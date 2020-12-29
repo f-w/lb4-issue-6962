@@ -24,6 +24,20 @@
         "isDefault": true
       },
       "problemMatcher": ["$tsc", "$eslint-compact", "$eslint-stylish"]
-    }
+    },
+    {
+      "label": "Clean and Compile Project",
+      "type": "shell",
+      "command": "npm run --silent clean && npm run --silent build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "silent",
+        "clear": true
+      }
+    },
+
   ]
 }

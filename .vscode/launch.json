@@ -4,6 +4,8 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
+      "console": "internalConsole",
+      "preLaunchTask": "Clean and Compile Project",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -13,6 +15,8 @@
       "type": "node",
       "request": "launch",
       "name": "Run Mocha tests",
+      "console": "internalConsole",
+      "preLaunchTask": "Clean and Compile Project",
       "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
       "runtimeArgs": [
         "-r",
