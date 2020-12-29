@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\..\\Users\\fredwen\\JsProjects\\notification"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "./node_modules/typescript/lib"
+  }
+}
